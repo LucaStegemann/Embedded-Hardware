@@ -1,0 +1,165 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cf446f40-9c4c-4a55-9c59-5e27cbb5605f")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 41.91 50.8)
+		(size 46.99 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3640eb9a-a329-40c1-877a-b575e1535702")
+		(property "Sheetname" "BMS"
+			(at 41.91 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 41.91 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 115.57)
+		(size 46.99 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd011a7f-b5ec-4cab-a528-f475104cfa41")
+		(property "Sheetname" "LTE"
+			(at 210.82 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTE_sch.kicad_sch"
+			(at 210.82 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 81.28)
+		(size 39.37 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc649216-d25a-4960-af46-ffbd1f3ce05b")
+		(property "Sheetname" "MCU"
+			(at 127 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 127 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 207.01 52.07)
+		(size 50.8 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e47a2364-aaec-4d1a-a593-7a7bc8e81e81")
+		(property "Sheetname" "Sensoren"
+			(at 207.01 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensoren.kicad_sch"
+			(at 207.01 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
