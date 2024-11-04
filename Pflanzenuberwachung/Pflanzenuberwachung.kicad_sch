@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "Pflanzenueberwachung"
+			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
 					(page "5")
 				)
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "Pflanzenueberwachung"
+			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
 					(page "4")
 				)
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "Pflanzenueberwachung"
+			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
 					(page "2")
 				)
@@ -150,7 +150,7 @@
 			)
 		)
 		(instances
-			(project "Pflanzenueberwachung"
+			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
 					(page "3")
 				)
