@@ -1747,6 +1747,12 @@
 		(uuid "854a911a-1cfd-46b9-bb96-f36948bc2636")
 	)
 	(junction
+		(at 251.46 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b22fc586-f3ab-4462-85e2-6d7be1204638")
+	)
+	(junction
 		(at 68.58 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1900,6 +1906,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 67.31) (xy 251.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3d5acb-af80-478c-8bcc-bfa917a382d7")
+	)
+	(wire
+		(pts
 			(xy 31.75 82.55) (xy 31.75 85.09)
 		)
 		(stroke
@@ -1907,6 +1923,16 @@
 			(type default)
 		)
 		(uuid "6c17b834-d20a-4645-8d5e-3daa15283503")
+	)
+	(wire
+		(pts
+			(xy 251.46 67.31) (xy 256.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fef24a8-7c60-48a3-ab5c-d6aa4b7cc026")
 	)
 	(wire
 		(pts
@@ -1960,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 67.31) (xy 256.54 67.31)
+			(xy 199.39 67.31) (xy 251.46 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2017,6 +2043,16 @@
 			(type default)
 		)
 		(uuid "93f2cb93-672a-4f5e-9512-cfb7e80e0e42")
+	)
+	(wire
+		(pts
+			(xy 251.46 90.17) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e5df2a-a7d3-4cd0-8477-7a672592b785")
 	)
 	(wire
 		(pts
@@ -2090,6 +2126,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 77.47) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3640a1b-bac8-4c30-81e2-9970d268993f")
+	)
+	(wire
+		(pts
 			(xy 237.49 85.09) (xy 237.49 93.98)
 		)
 		(stroke
@@ -2107,6 +2153,16 @@
 			(type default)
 		)
 		(uuid "e29ea7c5-90c6-469c-a1db-44bae4b53d20")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36edbbe-09df-4fea-b5f6-64b0d38d6ec6")
 	)
 	(wire
 		(pts
@@ -2289,7 +2345,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "efa7cc48-8538-4f29-a162-2859ca2ee34f")
+			(uuid "2eb7689d-4881-4bdf-bdd6-a272d96ec5c1")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2356,67 +2412,67 @@
 			)
 		)
 		(pin "15"
-			(uuid "cbbe6300-cd89-41ff-8c59-a0d7f37c4f93")
+			(uuid "70245516-3433-4ce6-bfba-901ebff9f5e3")
 		)
 		(pin "14"
-			(uuid "95cdaadc-2cc0-438a-81ac-b7089d830667")
+			(uuid "fd36dceb-5a32-466d-88c5-f9c88b80de36")
 		)
 		(pin "18"
-			(uuid "9569c4e7-5043-49e4-85db-51cd52eed93c")
+			(uuid "7d632c3a-b021-4878-90af-92598953fe43")
 		)
 		(pin "16"
-			(uuid "1bdf97d5-21a9-4911-8365-e904c8561446")
+			(uuid "8b437282-1ac2-44a7-a4cc-11e198aa8d99")
 		)
 		(pin "12"
-			(uuid "b34518e1-8636-407d-91e8-7a68b6e4da33")
+			(uuid "3ea74e38-e3e6-4449-bbba-af05c2dbd87c")
 		)
 		(pin "7"
-			(uuid "5b146432-59fe-441a-a01e-acca5b908f98")
+			(uuid "6440db18-27e4-4e10-ad72-fd456507f274")
 		)
 		(pin "6"
-			(uuid "8a17b276-625d-45d8-9b28-f973f7ebe97d")
+			(uuid "a99d3426-9e91-4353-9e92-3963a0813bbd")
 		)
 		(pin "11"
-			(uuid "2ffbd624-2a77-40f9-8baa-24790f7b63b0")
+			(uuid "68187785-ee50-4af1-8cc5-9f745727a790")
 		)
 		(pin "5"
-			(uuid "7fb2c2ff-c480-4f08-9b47-e23c9660b671")
+			(uuid "e3983d48-83a2-4418-a9ee-bc36078019bc")
 		)
 		(pin "4"
-			(uuid "65f05648-cb54-4954-a892-3872593229d8")
+			(uuid "c9e358ba-3ac1-4893-ba9b-8c16fe6ecca3")
 		)
 		(pin "10"
-			(uuid "3f54e52d-a18c-4532-9f1a-e925b276ed41")
+			(uuid "3262be3e-968f-4dc0-832d-1f7dfa817e8a")
 		)
 		(pin "2"
-			(uuid "86c5ec04-b540-4ebf-83bc-78d76f81d232")
+			(uuid "cae3ba9c-22e5-41ff-a04e-080de2d64bd6")
 		)
 		(pin "9"
-			(uuid "fe58dd72-12b4-4060-bdda-c62838d04c17")
+			(uuid "b8d03997-1737-45cf-92f7-a5ca15168918")
 		)
 		(pin "20"
-			(uuid "13610b2d-4cf1-4af0-8475-1897629cb206")
+			(uuid "fc3342ad-6784-43b6-a7a4-9d988e93a374")
 		)
 		(pin "3"
-			(uuid "56c2ad77-bb90-413e-8a6d-b22d40044118")
+			(uuid "99ab9d29-7dd0-484d-8fa1-5f1bc7bef82f")
 		)
 		(pin "1"
-			(uuid "8fb3bcf8-8579-453f-a96e-750a1dc7890b")
+			(uuid "05a3d43d-8eea-4e6c-b701-9c3f18804647")
 		)
 		(pin "13"
-			(uuid "27d13d5b-de48-4e3a-92b7-802231c26135")
+			(uuid "59156f53-f563-40d7-918a-5c29fa5e590f")
 		)
 		(pin "17"
-			(uuid "3cf98031-e5a0-4bf0-8f93-062e39d3bf0c")
+			(uuid "f33843b2-9129-4026-8364-f2833de3747b")
 		)
 		(pin "19"
-			(uuid "46107c35-68bc-4bdf-8fcd-ead24f4c0931")
+			(uuid "5e0f7a25-8433-47ad-ae58-5092f1549378")
 		)
 		(pin "8"
-			(uuid "70c71537-1980-4456-baf7-8604b57809da")
+			(uuid "b80639a4-4444-42e6-aff9-ca06f0c3b88e")
 		)
 		(pin "21"
-			(uuid "4c2a01f6-458d-43bf-b48d-9f262f545f84")
+			(uuid "e380b19d-bc74-4383-978b-fc7aefdaa1ca")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2483,10 +2539,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "87301778-aaa1-492c-8030-b8a017e78b60")
+			(uuid "00b8258b-764d-4ae5-9904-e0814086d837")
 		)
 		(pin "1"
-			(uuid "6f5c0ac2-bbab-4f0d-bae4-2878eb16bf7a")
+			(uuid "98387c94-2a5b-4567-9d6d-2c783576882c")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2553,10 +2609,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "4089be2a-3c40-4ea1-ae19-a399dd4e7fdb")
+			(uuid "3ad76cb6-01a6-4bc8-b473-a5bf4d45ece0")
 		)
 		(pin "2"
-			(uuid "fcc712e8-df60-44ed-8675-e6af3e571417")
+			(uuid "c33e01a0-a85c-4719-bb77-086d199da298")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2623,10 +2679,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "77e1b188-cdbf-41db-9b42-ac35a878d389")
+			(uuid "944799c3-99d1-4f32-a176-985c776874a8")
 		)
 		(pin "2"
-			(uuid "8bc301cc-db4f-456f-a912-72cd97aaff9e")
+			(uuid "2e9b1dfe-5ad7-4822-ba27-b38e48c9f0c2")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2692,7 +2748,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "90186756-6283-4354-adbc-e7c6dc142e85")
+			(uuid "9411f66c-9a18-4989-831e-2819d245eee6")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2759,10 +2815,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9beb1f7f-298e-4dc4-b346-f5183fbbd730")
+			(uuid "a8633523-86ea-44bf-9daa-0248574de017")
 		)
 		(pin "2"
-			(uuid "0d6a1e35-a311-43c9-8928-15c574d96655")
+			(uuid "89560c83-31d5-4270-959a-f8fcf6d8e1b5")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2827,10 +2883,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bb27d19-9676-4508-8635-73a5b8553862")
+			(uuid "2a8bb245-1169-4a4d-9353-e469eb016c88")
 		)
 		(pin "2"
-			(uuid "c7252411-79e2-42d0-a817-ab3070fc7a18")
+			(uuid "0dbb69fb-e067-4141-b321-76cea24b3219")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2896,7 +2952,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f90bf20-d5e7-444f-ba5b-9b6dc1eae4a3")
+			(uuid "31443f22-5f1d-4ee8-a8a8-3e17b65b0136")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -2962,7 +3018,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "01856170-9598-48b6-a3ff-abeb2ecc370d")
+			(uuid "99c606b3-0789-472f-a5fc-e1765f9814f8")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3029,10 +3085,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2fcca66d-f61f-49e4-ac1b-5ec5d3a83ce5")
+			(uuid "71acfca6-7a4d-437b-ba91-3c0bd9c8baaa")
 		)
 		(pin "2"
-			(uuid "dcecbc49-6cf7-4b9f-9311-0d2d3b33e946")
+			(uuid "8a41ba29-daf7-4a2c-a08c-543ce2f3f148")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3098,7 +3154,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a590c920-ddf2-49bd-ac7a-54bdcabec34e")
+			(uuid "4a318cc2-663a-493d-add0-07156628bb18")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3165,10 +3221,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d979f9c1-992a-4b03-8a7e-0d9d0ef5617b")
+			(uuid "acb75a09-714e-4713-82f8-a67de8103732")
 		)
 		(pin "2"
-			(uuid "4b606d8b-830c-4612-b051-65e9535ef17c")
+			(uuid "b1ac812c-f7d4-494f-9d23-25309582829f")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3234,7 +3290,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47657262-3bcd-40f2-add0-35449f616459")
+			(uuid "c99d6cf7-3050-4c7a-9383-6f7c5c03491d")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3301,15 +3357,151 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d0445f0-3146-45bb-87cb-733678fd9a1a")
+			(uuid "a24c8fec-ac15-49e5-8560-bc683e56e043")
 		)
 		(pin "2"
-			(uuid "ecb03e28-457a-4713-b6b6-d324ad0674d2")
+			(uuid "aa7c9715-9960-49ec-ac19-fb6909b69204")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9efa8e82-01af-421b-918a-6b547d78995f")
+		(property "Reference" "#PWR030"
+			(at 251.46 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b07d3296-18eb-4384-a0be-90d036eb752d")
+		)
+		(instances
+			(project "Pflanzenuberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 251.46 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0613fdf-2624-4982-8445-22a77bda418b")
+		(property "Reference" "D3"
+			(at 255.27 105.7274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 255.27 108.2674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 251.46 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fa7abea-4417-4ab0-b8b3-7508a2ac3da3")
+		)
+		(pin "2"
+			(uuid "9ffd5e90-3f32-44b9-91e6-b7aa69d3d6bf")
+		)
+		(instances
+			(project "Pflanzenuberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3371,10 +3563,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "79273316-e323-43e9-80a4-c095cdf404fa")
+			(uuid "0d1b5e9d-511a-477c-adf7-f67555d5d0e7")
 		)
 		(pin "2"
-			(uuid "88546406-9d4f-4074-9cf1-a7e3b989159b")
+			(uuid "22ecb9e7-f51f-477f-bcb5-cd624232b7e6")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3440,7 +3632,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bd83704-25f6-47c0-b385-2f5426fcbc77")
+			(uuid "50f61761-17bc-4802-8109-94ff7da6fa76")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3506,7 +3698,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6b167c9e-6895-4cea-af14-c9ed1a0309ae")
+			(uuid "7e687424-4841-4604-b349-aa58fe79a532")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3573,10 +3765,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c018d0f-1a53-41af-aa46-dee84598ae47")
+			(uuid "9a2de8a5-8171-4edf-a964-dde002368c3d")
 		)
 		(pin "2"
-			(uuid "ae1dd316-51a0-424b-8711-06e109c769fd")
+			(uuid "046cc17c-9222-40c2-8242-a3bd7e4990d6")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3642,7 +3834,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b20da164-c857-4640-8803-693fc1f550b4")
+			(uuid "3c6ad3de-20ad-4b09-8a95-c0bfeae8d4fb")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3708,12 +3900,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "7706e877-c9fc-407a-ab52-a1d37a908f61")
+			(uuid "2e6ee269-ad27-4309-b022-0b41500da219")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 246.38 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb15251b-0666-44cb-9cd0-c4f1f6fe005e")
+		(property "Reference" "J7"
+			(at 247.015 71.1872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 247.015 72.4572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 246.38 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "035601c5-2e73-4f1a-aea1-a1bd41917c53")
+		)
+		(pin "2"
+			(uuid "5ed10013-3359-4858-823e-5642f3f77c34")
+		)
+		(instances
+			(project "Pflanzenuberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3773,10 +4033,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc2acc1d-8175-4548-8e9d-11a13074fe14")
+			(uuid "7bff93fa-835c-4f01-bcd3-47b4923d1519")
 		)
 		(pin "2"
-			(uuid "96d7cfb2-f856-481c-ba9b-505f0972176f")
+			(uuid "2751b926-59bf-43f0-997c-d51cef5dee59")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3842,7 +4102,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c58896ca-bf49-4167-9829-eae13e16277a")
+			(uuid "1d207b09-04c6-49e1-afc4-9d8bb6527530")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3909,10 +4169,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b4df673-c712-4cc7-9255-fa2b108ed98b")
+			(uuid "704e5c93-c249-4a86-b595-0d1873a0377d")
 		)
 		(pin "1"
-			(uuid "981e2eef-0065-4be5-8632-709c427ba08b")
+			(uuid "d0ae63d7-6909-4af9-9ee7-51028769a630")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
@@ -3978,12 +4238,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "59ad8f11-5efc-45bb-85c0-77295286c40f")
+			(uuid "ec3a9a67-70c6-481f-b51a-9081cd7e34ce")
 		)
 		(instances
 			(project "Pflanzenuberwachung"
 				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 251.46 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62ef425-4a13-40f7-92b8-94609e183e0a")
+		(property "Reference" "R7"
+			(at 254.3343 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 254.3343 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.682 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04b0928a-514a-439f-9202-9a1f03756587")
+		)
+		(pin "2"
+			(uuid "b1dc0020-553d-46e1-a419-11b1c96ccb09")
+		)
+		(instances
+			(project "Pflanzenuberwachung"
+				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f/3640eb9a-a329-40c1-877a-b575e1535702"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4043,25 +4373,25 @@
 			)
 		)
 		(pin "B9"
-			(uuid "54ddc964-237d-4bc7-9270-1ea8f5de8092")
+			(uuid "2bfab2a8-1d85-4fa5-b2f3-eda39df5e022")
 		)
 		(pin "A5"
-			(uuid "b5e0e57a-0188-491c-8337-e1076ebb83ec")
+			(uuid "e0b435da-0706-42b5-944f-48516521572a")
 		)
 		(pin "A12"
-			(uuid "602ac886-3396-4339-bfbc-c2fc958d9d98")
+			(uuid "e6298a31-5ae6-4979-89ec-ae1568ec50c3")
 		)
 		(pin "B5"
-			(uuid "06700859-991d-41b2-9409-89a483464b16")
+			(uuid "c779a9f1-ff6d-496b-a006-1aebaa32c105")
 		)
 		(pin "S1"
-			(uuid "f1d7d756-0b00-40cf-a85f-52276ea3d3c2")
+			(uuid "22a887ef-a8a5-4ef4-a77e-3aa768e965e3")
 		)
 		(pin "A9"
-			(uuid "027ca88f-02e9-4473-82e3-e34ca92d1ac5")
+			(uuid "da8b422c-a7f7-4cb9-afec-9d749fc6985e")
 		)
 		(pin "B12"
-			(uuid "42422b7f-ac7e-4524-9ae3-5edbe83da6c4")
+			(uuid "e0762013-052d-4838-950c-b0a7702fa859")
 		)
 		(instances
 			(project "Pflanzenuberwachung"

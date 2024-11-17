@@ -2084,6 +2084,26 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 146.05) (xy 157.48 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0f49f9-41aa-48ac-aca8-4149ae12387a")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126c892e-bf31-406b-953d-51cf235d8ce0")
+	)
+	(wire
+		(pts
 			(xy 44.45 73.66) (xy 44.45 85.09)
 		)
 		(stroke
@@ -2334,6 +2354,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 133.35) (xy 149.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c620ade-9d21-4238-b95f-f29653e0d9da")
+	)
+	(wire
+		(pts
 			(xy 66.04 73.66) (xy 92.71 73.66)
 		)
 		(stroke
@@ -2371,6 +2401,16 @@
 			(type default)
 		)
 		(uuid "6e579c42-d70e-4dcf-858f-90c5e51050ad")
+	)
+	(wire
+		(pts
+			(xy 147.32 133.35) (xy 147.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb44d7a-e0ad-4452-a308-7680c2f83dc2")
 	)
 	(wire
 		(pts
@@ -2424,6 +2464,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 31.75) (xy 142.24 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a174a3-8cfc-4a09-9a12-2ad6d3500d51")
+	)
+	(wire
+		(pts
 			(xy 120.65 137.16) (xy 120.65 139.7)
 		)
 		(stroke
@@ -2464,6 +2514,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7bf5ca7-2e91-4461-b0ee-035e46146322")
+	)
+	(wire
+		(pts
 			(xy 160.02 129.54) (xy 160.02 148.59)
 		)
 		(stroke
@@ -2481,6 +2541,16 @@
 			(type default)
 		)
 		(uuid "acbac8f0-bfb4-4de9-9b4b-b162d76d50fd")
+	)
+	(wire
+		(pts
+			(xy 175.26 86.36) (xy 210.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba315b16-7aa6-4778-a5d0-14af161bba11")
 	)
 	(wire
 		(pts
@@ -2624,6 +2694,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 133.35) (xy 149.86 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a1ebd5-eab4-4b9b-afc2-0e4688f38f05")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 210.82 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2c44592-d7f7-4c5c-a178-87a9ca9da46e")
+	)
+	(wire
+		(pts
 			(xy 27.94 107.95) (xy 27.94 105.41)
 		)
 		(stroke
@@ -2631,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "f56b7bc9-7447-4cba-a9b3-3fc1769db89e")
+	)
+	(wire
+		(pts
+			(xy 139.7 31.75) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9623f62-d6cf-49ce-ae0d-4caf474bc20a")
 	)
 	(wire
 		(pts
@@ -2717,6 +2817,90 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "LTE_WakeUp"
+		(shape input)
+		(at 147.32 156.21 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05b271ce-7f26-4be6-b799-3100576ab742")
+	)
+	(hierarchical_label "ADC_TEMP"
+		(shape input)
+		(at 104.14 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ec1b7cc-9bbe-4592-976b-72ee85e9cd90")
+	)
+	(hierarchical_label "DI_LUX"
+		(shape input)
+		(at 199.39 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20b4c14f-b6bd-4828-ade1-0dc0e375f3f5")
+	)
+	(hierarchical_label "I2C1_SDA_BODEN"
+		(shape input)
+		(at 139.7 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28ec7899-ad86-471b-a837-23e7ceac280f")
+	)
+	(hierarchical_label "USART1_TX_LTE"
+		(shape input)
+		(at 210.82 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c6ebafa-1c60-40a5-8b0b-d90f05b39164")
+	)
+	(hierarchical_label "USART1_RX_LTE"
+		(shape input)
+		(at 210.82 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc50ab24-a2dc-4121-8a89-fab63aef190f")
+	)
+	(hierarchical_label "I2C1_SCK_BODEN"
+		(shape input)
+		(at 142.24 31.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e61d7c31-0cae-4f1a-8cfe-3db680cfe54f")
 	)
 	(symbol
 		(lib_id "Bauteile2:ABS25-32.768KHZ-6-T")
