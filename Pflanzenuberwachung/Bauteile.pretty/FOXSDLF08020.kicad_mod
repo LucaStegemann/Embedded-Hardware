@@ -1,0 +1,242 @@
+(footprint "FOXSDLF08020"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "FOXSDLF/080-20-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "46a6446c-62bb-4ea2-bb6f-80953f13f158")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "FOXSDLF08020"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "888726d1-ed4e-45f4-a16a-de890526bcf7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66ba6fbf-d02e-4a9e-984e-18f5948dda7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "708358e7-07bd-4876-b551-8544f15eeb85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c7e11ca-cc96-4f35-ba78-c4096940a4cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.85 -2.5)
+		(end 5.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cb68adc-74ea-4f6c-8259-d1349dbf99d5")
+	)
+	(fp_line
+		(start -5.85 -1.2)
+		(end -5.85 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a15c016-3a6d-4b5d-938a-7b24af781c19")
+	)
+	(fp_line
+		(start -5.85 1.2)
+		(end -5.85 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "440e3bec-09c8-4f9b-85e0-99b664516b90")
+	)
+	(fp_line
+		(start -5.85 2.5)
+		(end 5.85 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00d1f332-e1a8-47e6-ae0d-58e8d919da94")
+	)
+	(fp_line
+		(start 5.85 -2.5)
+		(end 5.85 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c556c390-cf80-4d43-8455-1b5d4c726ea8")
+	)
+	(fp_line
+		(start 5.85 2.5)
+		(end 5.85 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b61478c2-9d29-4eff-8fe0-1824e94ffd3c")
+	)
+	(fp_line
+		(start -8.5 -3.5)
+		(end 8.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f09b7e75-ca30-4ebb-a13d-2004de30fc0a")
+	)
+	(fp_line
+		(start -8.5 3.5)
+		(end -8.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5174abec-b3d2-4b23-8e45-a484b5c1fcc8")
+	)
+	(fp_line
+		(start 8.5 -3.5)
+		(end 8.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86bdafd9-1011-4cb2-9d33-686e93bd06a0")
+	)
+	(fp_line
+		(start 8.5 3.5)
+		(end -8.5 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43bb942c-cb17-4411-b9f9-0ce6946810f4")
+	)
+	(fp_line
+		(start -5.85 -2.5)
+		(end 5.85 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d651ea8e-320a-4437-ad0f-2d310acd4044")
+	)
+	(fp_line
+		(start -5.85 2.5)
+		(end -5.85 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4095e45c-5043-4cda-a9d0-76265e27506c")
+	)
+	(fp_line
+		(start 5.85 -2.5)
+		(end 5.85 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c4115228-01a9-4656-b9a8-8ebed819f608")
+	)
+	(fp_line
+		(start 5.85 2.5)
+		(end -5.85 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb8b7644-9d26-4dfe-8edd-87a7193473ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c44f1bdd-3ac4-42b1-9188-3e9f5b108403")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.75 0 90)
+		(size 2 5.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2281ceca-304e-4ab6-b29e-74e8c71efc3c")
+	)
+	(pad "2" smd rect
+		(at 4.75 0 90)
+		(size 2 5.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "797ab19d-dc30-40d6-9f68-f45f814dc5d8")
+	)
+	(model "FOXSDLF_080-20.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

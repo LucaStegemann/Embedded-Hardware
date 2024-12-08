@@ -1,0 +1,385 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ef77ed57-ccc0-485d-b54a-c11bf4a81eae")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 173.99 49.53) (xy 201.93 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29324176-f990-4d77-92ad-ba20ae447220")
+	)
+	(wire
+		(pts
+			(xy 173.99 45.72) (xy 201.93 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58591e42-954e-4f4c-a85e-c400ac717e19")
+	)
+	(wire
+		(pts
+			(xy 158.75 110.49) (xy 198.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb71e3f-d9e7-4e15-ab23-e5b9188a9085")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 198.12 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb24c90-8336-44ca-ad54-55685ea52aa4")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 158.75 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e17d7c4-6263-4893-96d3-4a0c0062e291")
+	)
+	(wire
+		(pts
+			(xy 153.67 78.74) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7676112-4adc-455f-add9-67e3033e4b26")
+	)
+	(wire
+		(pts
+			(xy 173.99 66.04) (xy 201.93 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80f0191-5b75-4697-8d46-ff6e60676e5a")
+	)
+	(wire
+		(pts
+			(xy 173.99 68.58) (xy 201.93 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe318036-ddbd-4483-8e48-37b4791633ee")
+	)
+	(sheet
+		(at 33.02 59.69)
+		(size 45.72 33.02)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "09bcb73f-3591-4543-800f-2d48de79aa09")
+		(property "Sheetname" "BMS"
+			(at 33.02 58.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 33.02 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 201.93 38.1)
+		(size 30.48 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a6a0b0e-47c4-41d3-8c35-3d3d8778c7ea")
+		(property "Sheetname" "Sensoren"
+			(at 201.93 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensorik.kicad_sch"
+			(at 201.93 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC Temp" output
+			(at 201.93 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8c485047-a32d-43dd-9ff8-effdd72a2236")
+		)
+		(pin "IN LUX" output
+			(at 201.93 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5dc14a2a-8b85-4d88-b78c-2d5204be7dbb")
+		)
+		(pin "I2C1_SCK" bidirectional
+			(at 201.93 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7283c942-1a50-44f7-87b7-46bc9aec90bc")
+		)
+		(pin "I2C1_SDA" bidirectional
+			(at 201.93 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2d7aec5f-ebfb-4cca-8e05-3a11338137a0")
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 38.1)
+		(size 49.53 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8dd4c6e3-f5e6-4c6b-810a-6def11f35765")
+		(property "Sheetname" "MCU"
+			(at 124.46 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm microcontroller.kicad_sch"
+			(at 124.46 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C1_SDA" output
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3652abe4-b516-4255-bd22-c373e3ff9f05")
+		)
+		(pin "ADC Temp" input
+			(at 173.99 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "98bb67f9-f4d7-4eb7-837f-ca0afdec6b57")
+		)
+		(pin "IN LUX" input
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "775d0421-c297-4ff9-b33e-2ecd9ed24f71")
+		)
+		(pin "VCC MCU" input
+			(at 124.46 46.99 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa26a2be-3a31-46ca-b700-2344e3796445")
+		)
+		(pin "I2C1_SCK" output
+			(at 173.99 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "826ba17f-242c-4d55-93a3-a3890fc96d9e")
+		)
+		(pin "USAET_2_TX" bidirectional
+			(at 153.67 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c7cec4d-b9e2-4975-acfd-88cc83263b88")
+		)
+		(pin "USART_2_RX" bidirectional
+			(at 158.75 78.74 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "686a6657-684c-4175-a41d-5d1f537ed081")
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 101.6)
+		(size 31.75 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc0087c6-0eb5-47dc-9fab-e999fb79f5b3")
+		(property "Sheetname" "LTE"
+			(at 198.12 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LTE_Modul_sch.kicad_sch"
+			(at 198.12 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" input
+			(at 198.12 120.65 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5cf93989-6661-4afd-998d-67d925d864df")
+		)
+		(pin "UART_0_RX" bidirectional
+			(at 198.12 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "097accef-4a36-4eb2-aa0d-7e44381bf3eb")
+		)
+		(pin "UART_0_TX" bidirectional
+			(at 198.12 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5f1a416-f66a-4a8f-b42b-e5d6c36578c6")
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

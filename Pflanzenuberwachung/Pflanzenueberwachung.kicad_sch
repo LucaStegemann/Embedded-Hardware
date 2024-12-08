@@ -2,202 +2,202 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "cf446f40-9c4c-4a55-9c59-5e27cbb5605f")
+	(uuid "ef77ed57-ccc0-485d-b54a-c11bf4a81eae")
 	(paper "A4")
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 184.15 127) (xy 134.62 127)
+			(xy 187.96 67.31) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e188ff3-7302-485b-a95d-7f02ece76bed")
+		(uuid "18f556d0-3b74-4f19-be77-da62a94e3480")
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 173.99 73.66)
+			(xy 185.42 59.69) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29705184-5c06-4194-b717-730842681314")
+		(uuid "497bb5b1-9972-4673-954d-406b525b5f77")
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 140.97 121.92)
+			(xy 201.93 67.31) (xy 187.96 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2987033b-d177-44db-94b7-fbb31d52d95d")
+		(uuid "4d81cd6f-0bad-4c8f-a6ad-c45e79fd6346")
 	)
 	(wire
 		(pts
-			(xy 187.96 80.01) (xy 171.45 80.01)
+			(xy 173.99 57.15) (xy 186.69 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "410dcb4d-94cb-42d7-b5db-63b27496b73e")
+		(uuid "5aa74721-ec05-4a46-8821-015e8ac01b07")
 	)
 	(wire
 		(pts
-			(xy 171.45 66.04) (xy 160.02 66.04)
+			(xy 189.23 63.5) (xy 201.93 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d40ee0b-3b6a-4c74-a409-996b4937b8a9")
+		(uuid "5b771a7a-1ea2-4ffb-b5ae-11a2392072e3")
 	)
 	(wire
 		(pts
-			(xy 160.02 57.15) (xy 175.26 57.15)
+			(xy 186.69 57.15) (xy 186.69 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f5612ae-156b-4958-8123-2c3a1ffcf35a")
+		(uuid "6741e52c-ecab-4321-9a98-f8d561c63087")
 	)
 	(wire
 		(pts
-			(xy 160.02 63.5) (xy 172.72 63.5)
+			(xy 187.96 53.34) (xy 173.99 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61a331d5-852d-4e78-8cc9-0ed8367934ac")
+		(uuid "6e71f07c-e0cc-4851-a2ad-a188d52f027a")
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 134.62 127)
+			(xy 148.59 78.74) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "682ee9e2-79bd-470f-9901-367d52321a02")
+		(uuid "74b43c2c-6fe7-43bf-bbcf-b405db111dd7")
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 187.96 52.07)
+			(xy 157.48 111.76) (xy 157.48 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7013b165-788d-431b-95de-8371ec8e4259")
+		(uuid "7b1451e2-65c1-4856-8676-69771a262c54")
 	)
 	(wire
 		(pts
-			(xy 172.72 63.5) (xy 172.72 77.47)
+			(xy 185.42 73.66) (xy 185.42 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92303ab2-29c1-42c4-8fe7-a9ac76a073b6")
+		(uuid "9643abea-3804-4411-be5a-9c5ab2f4f9c2")
 	)
 	(wire
 		(pts
-			(xy 184.15 121.92) (xy 140.97 121.92)
+			(xy 198.12 119.38) (xy 148.59 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7d2e6bd-fa16-428f-96a0-6743c87aeef3")
+		(uuid "9930f662-7aca-45fe-a6a5-a64caaecbf15")
 	)
 	(wire
 		(pts
-			(xy 172.72 77.47) (xy 187.96 77.47)
+			(xy 173.99 45.72) (xy 201.93 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a823ae32-a73d-44f3-8ab2-0219e553383e")
+		(uuid "9f8a0ebe-cba3-4af5-aa2c-f62f62ee6133")
 	)
 	(wire
 		(pts
-			(xy 184.15 119.38) (xy 143.51 119.38)
+			(xy 198.12 111.76) (xy 157.48 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a840373c-eae5-4ecc-bb91-31a5b723d399")
+		(uuid "ab29ab55-4513-4ec4-9161-40f7df2b378e")
 	)
 	(wire
 		(pts
-			(xy 173.99 59.69) (xy 160.02 59.69)
+			(xy 189.23 50.8) (xy 189.23 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8b2a18f-66e3-401c-886f-43c3ea4418a1")
+		(uuid "cb8a1db2-f489-4965-bb7b-2a3d8255c8cc")
 	)
 	(wire
 		(pts
-			(xy 173.99 73.66) (xy 173.99 59.69)
+			(xy 201.93 73.66) (xy 185.42 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3f16198-99f7-48a1-8463-be6f1857c230")
+		(uuid "d2532f92-7be6-4ff1-8106-ee0257fe9111")
 	)
 	(wire
 		(pts
-			(xy 171.45 80.01) (xy 171.45 66.04)
+			(xy 154.94 114.3) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b459e682-96ea-466b-9b26-d7d1511ca94c")
+		(uuid "db744adc-1241-42ed-aba7-80aaf22541b4")
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 187.96 69.85)
+			(xy 173.99 50.8) (xy 189.23 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6412497-ac08-4ce6-acbd-a464f8ef42e5")
+		(uuid "e1ae9be5-0c4c-46dd-afab-8aedde27eed6")
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 143.51 119.38)
+			(xy 186.69 71.12) (xy 201.93 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3eab19b-14e2-4da2-be36-f8c7a5f1df52")
+		(uuid "e4c6f4a7-f796-47cd-bee1-af8216eab628")
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 175.26 69.85)
+			(xy 198.12 114.3) (xy 154.94 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c57e6c94-0461-4ec9-bb90-9bdb0d56a15b")
+		(uuid "e72f3cab-fdd7-4cca-b94b-45b939ad2e89")
 	)
 	(sheet
-		(at 41.91 50.8)
-		(size 46.99 27.94)
+		(at 31.75 40.64)
+		(size 45.72 33.02)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -206,9 +206,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "3640eb9a-a329-40c1-877a-b575e1535702")
+		(uuid "09bcb73f-3591-4543-800f-2d48de79aa09")
 		(property "Sheetname" "BMS"
-			(at 41.91 50.0884 0)
+			(at 31.75 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -217,7 +217,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS.kicad_sch"
-			(at 41.91 79.3246 0)
+			(at 31.75 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,15 +226,15 @@
 			)
 		)
 		(instances
-			(project "Pflanzenuberwachung"
-				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
 					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 187.96 44.45)
+		(at 201.93 38.1)
 		(size 30.48 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -244,9 +244,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a5ab7401-593b-4435-bac0-cf7d6bd41256")
+		(uuid "0a6a0b0e-47c4-41d3-8c35-3d3d8778c7ea")
 		(property "Sheetname" "Sensoren"
-			(at 187.96 43.7384 0)
+			(at 201.93 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -255,7 +255,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensorik.kicad_sch"
-			(at 187.96 85.6746 0)
+			(at 201.93 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,65 +264,65 @@
 			)
 		)
 		(pin "ADC_TEMP" input
-			(at 187.96 69.85 180)
+			(at 201.93 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "49419920-53c3-407c-97cd-2238bc8c02b1")
+			(uuid "0184940e-b6b1-40bf-a0a2-e90c41c10904")
 		)
 		(pin "DI_ON" input
-			(at 187.96 52.07 180)
+			(at 201.93 45.72 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bf279d1f-f304-422c-a98d-830da30b084f")
+			(uuid "cf9254f1-5c20-4158-a75e-aa8b08ff2bc8")
 		)
 		(pin "I2C1_SDA_BODEN" input
-			(at 187.96 77.47 180)
+			(at 201.93 71.12 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "962bbe4c-0f47-467a-9889-799ca9b3e600")
+			(uuid "ab4dbca2-ffa1-435d-ad98-59209f9b08d0")
 		)
 		(pin "I2C1_SCK_BODEN" input
-			(at 187.96 80.01 180)
+			(at 201.93 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "244d38bf-f9c3-402b-be90-09bfc52c61bc")
+			(uuid "f160e11e-1e5f-462f-be9c-65732d16ddf8")
 		)
 		(pin "DO_LUX" input
-			(at 187.96 73.66 180)
+			(at 201.93 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ae9658b8-9073-4ec3-9cd2-242e40d2520c")
+			(uuid "e46ad9d2-564e-47bc-a656-a4a043cb9b2e")
 		)
 		(instances
-			(project "Pflanzenuberwachung"
-				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
-					(page "3")
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 110.49 44.45)
+		(at 124.46 38.1)
 		(size 49.53 40.64)
 		(fields_autoplaced yes)
 		(stroke
@@ -332,9 +332,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "bf862b7e-d959-45e8-a2de-cb63cfe8ea32")
+		(uuid "8dd4c6e3-f5e6-4c6b-810a-6def11f35765")
 		(property "Sheetname" "MCU"
-			(at 110.49 43.7384 0)
+			(at 124.46 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,7 +343,7 @@
 			)
 		)
 		(property "Sheetfile" "stm microcontroller.kicad_sch"
-			(at 110.49 85.6746 0)
+			(at 124.46 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,96 +352,96 @@
 			)
 		)
 		(pin "LTE_WakeUp" input
-			(at 134.62 85.09 270)
+			(at 148.59 78.74 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4863c23f-2414-46a8-8508-0c390fb82ce1")
+			(uuid "895a96f2-b757-4118-8333-3f053a578c64")
 		)
 		(pin "USART1_TX_LTE" input
-			(at 140.97 85.09 270)
+			(at 154.94 78.74 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e77f60f-7657-47a1-8158-9102d4390d15")
+			(uuid "1199d602-9ed0-45b4-8d5e-2686fac100d6")
 		)
 		(pin "USART1_RX_LTE" input
-			(at 143.51 85.09 270)
+			(at 157.48 78.74 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "73dc4293-ada5-42f1-a9d7-0ea3356f596e")
+			(uuid "811a2b60-bbed-451c-9d71-38397311da06")
 		)
 		(pin "I2C1_SDA_BODEN" input
-			(at 160.02 63.5 0)
+			(at 173.99 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e58e8d04-bacb-4d5d-9a44-e08c29d67c7b")
+			(uuid "751f3585-29f2-4a2b-9eb5-14b3d548a433")
 		)
 		(pin "I2C1_SCK_BODEN" input
-			(at 160.02 66.04 0)
+			(at 173.99 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1f2930fb-2963-4d40-aa0e-9fe025236276")
+			(uuid "d59b6b58-74d9-4f25-b877-9c15562757e0")
 		)
 		(pin "DI_LUX" input
-			(at 160.02 59.69 0)
+			(at 173.99 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "618c3977-d80d-4ea0-803d-41abe2a534eb")
+			(uuid "d8a15b98-fb9f-4582-ad1c-c95dfcf3810e")
 		)
 		(pin "ADC_TEMP" input
-			(at 160.02 57.15 0)
+			(at 173.99 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a97ef508-8329-40e4-a766-4d676c36cf63")
+			(uuid "fdf2b6f6-db1f-4897-bc97-bc7f1382ed45")
 		)
 		(pin "DO_Sensor_ON" input
-			(at 160.02 52.07 0)
+			(at 173.99 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bd80bd76-b1cb-4419-945b-674320d82250")
+			(uuid "c87c9869-641d-4f3b-8b68-e64d3488b2e0")
 		)
 		(instances
-			(project "Pflanzenuberwachung"
-				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
 					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 184.15 110.49)
-		(size 46.99 25.4)
+		(at 198.12 101.6)
+		(size 31.75 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -450,9 +450,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "cd011a7f-b5ec-4cab-a528-f475104cfa41")
+		(uuid "cc0087c6-0eb5-47dc-9fab-e999fb79f5b3")
 		(property "Sheetname" "LTE"
-			(at 184.15 109.7784 0)
+			(at 198.12 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,8 +460,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "LTE_sch.kicad_sch"
-			(at 184.15 136.4746 0)
+		(property "Sheetfile" "LTE_Modul_sch.kicad_sch"
+			(at 198.12 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,40 +469,40 @@
 				(justify left top)
 			)
 		)
-		(pin "WAKEUP" input
-			(at 184.15 127 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e88c9294-107a-45c8-b304-7bd5b5fa1e5b")
-		)
 		(pin "UART TX" input
-			(at 184.15 119.38 180)
+			(at 198.12 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "76748f29-0a88-4636-8a36-cf9b99624f0d")
+			(uuid "9e9cc101-e128-42bb-ba99-92ca8f0dff3c")
 		)
 		(pin "UART RX" input
-			(at 184.15 121.92 180)
+			(at 198.12 111.76 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0279f7cf-0439-4996-826c-ec96954f3d2a")
+			(uuid "a6a0853e-8db5-4b08-87ab-72ea269de7c2")
+		)
+		(pin "WAKEUP" input
+			(at 198.12 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "149a91c7-16d3-4ce5-bc5c-d4a4efc701bb")
 		)
 		(instances
-			(project "Pflanzenuberwachung"
-				(path "/cf446f40-9c4c-4a55-9c59-5e27cbb5605f"
-					(page "4")
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae"
+					(page "3")
 				)
 			)
 		)
