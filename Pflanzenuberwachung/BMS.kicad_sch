@@ -2011,6 +2011,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 92.71) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076ca1d6-bc33-4611-a814-91862f3dd5b7")
+	)
+	(wire
+		(pts
 			(xy 250.19 58.42) (xy 250.19 66.04)
 		)
 		(stroke
@@ -2098,6 +2108,16 @@
 			(type default)
 		)
 		(uuid "2574213c-50a0-4318-93dd-0edc9dfd72fb")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 82.55 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257879ad-320f-4ced-866f-c4980f0bdf6a")
 	)
 	(wire
 		(pts
@@ -2258,16 +2278,6 @@
 			(type default)
 		)
 		(uuid "5692dbcd-dadf-4f4c-b21c-7d1f140448f4")
-	)
-	(wire
-		(pts
-			(xy 82.55 92.71) (xy 82.55 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a4b040e-a3fb-40f3-a0e0-531126129598")
 	)
 	(wire
 		(pts
@@ -2795,6 +2805,28 @@
 		(uuid "08c70c53-1530-4433-9ef2-86e2eea7a207")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.5785 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vout 3,8V"
+		(shape output)
+		(at 86.36 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1180d09e-c3fa-4c7e-b2ac-ba70a42da144")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.5375 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,72 +4403,6 @@
 			(project "Pflanzenueberwachung"
 				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae/09bcb73f-3591-4543-800f-2d48de79aa09"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 82.55 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c3bfac2-9206-492d-b520-7c00d6eee52c")
-		(property "Reference" "#PWR028"
-			(at 82.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2918fe07-4a38-4e61-bb2c-65eae9405e65")
-		)
-		(instances
-			(project "Pflanzenueberwachung"
-				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae/09bcb73f-3591-4543-800f-2d48de79aa09"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)

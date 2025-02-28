@@ -2968,6 +2968,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 39.37) (xy 168.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e52ef2-52b5-430a-bb6b-11db61f89431")
+	)
+	(wire
+		(pts
 			(xy 54.61 111.76) (xy 116.84 111.76)
 		)
 		(stroke
@@ -3755,6 +3765,16 @@
 			(type default)
 		)
 		(uuid "f8cb00c0-b236-43f3-85aa-10eabb2d5fb0")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94fd776-1108-4f04-8da9-338dd5d11ce7")
 	)
 	(wire
 		(pts
@@ -5296,6 +5316,72 @@
 			(project "Pflanzenueberwachung"
 				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae/8dd4c6e3-f5e6-4c6b-810a-6def11f35765"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 39.37 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ad556a3-253e-4816-982a-7f0fff8588b8")
+		(property "Reference" "#PWR046"
+			(at 168.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6495b3ba-8eaf-4eca-bdb8-8cf4f8632a8d")
+		)
+		(instances
+			(project "Pflanzenueberwachung"
+				(path "/ef77ed57-ccc0-485d-b54a-c11bf4a81eae/8dd4c6e3-f5e6-4c6b-810a-6def11f35765"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
